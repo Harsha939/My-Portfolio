@@ -1,0 +1,268 @@
+*{
+    font-family: "Bree Serif";
+}
+
+/* .spacing{
+    padding-top: 30px;
+} */
+
+/* Custom Navbar Styles */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+}
+
+
+
+.nav-link:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+/* Home Section Styles */
+#home {
+    height: 100vh; /* Full viewport height */
+    background: url('your-background-image.jpg') no-repeat center center/cover;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#home .container {
+    max-width: 600px;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#home p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#home .btn {
+    font-size: 1.25rem;
+}
+
+/* Projects Section Styles */
+
+#projects {
+    background-color: #f8f9fa;
+}
+
+#projects .card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#projects .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#projects .card-text {
+    font-size: 1rem;
+}
+
+#projects .btn {
+    font-size: 1rem;
+}
+.progress-bar {
+    transition: width 3s ease-in-out;
+}
+.project-img{
+    border-radius: 10px;
+    height: 300px;
+}
+
+
+/* About Section Styles */
+#about {
+    background-color: #f9f9f9;
+    padding: 70px 0;
+}
+
+#about .container {
+    max-width: 900px;
+}
+
+#about img {
+    width: 100%;
+    height: 450px;
+    border-radius: 70%;
+    margin-bottom: 20px;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#about h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#about .btn {
+    font-size: 1.1rem;
+}
+.profile-img{
+    width: 100px;
+    height: 100px;
+
+}
+
+/* About buttons */
+
+
+.btn1, .btn2 {
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    background-color: #6244C5;
+    border-color: #6244C5;
+    padding:10px;
+    border-radius:10px;
+    color: #fff;
+    font-weight: bold;
+}
+.btn2:hover {
+    background-color: #fff;
+    border-color: #6244A6;
+    color: #6244A6;
+}
+.btn1:hover {
+    background-color: #fff;
+    border-color: #6244A6;
+    color: #6244A6;
+}
+
+/* Education Section */
+#education {
+    background: #e9ecef; /* Changed background color */
+    padding: 3rem 0;
+}
+
+#education .education-item {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transform to transition */
+}
+
+#education .education-item:hover {
+    transform: translateY(-5px); /* Added slight lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced box shadow on hover */
+}
+
+#education h5 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+#education p {
+    margin-bottom: 0.5rem;
+}
+
+#education .text-muted {
+    color: #6c757d;
+}
+
+
+
+/* Contact Section Styles */
+#contact {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+#contact .container {
+    max-width: 700px;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#contact .form-group {
+    margin-bottom: 20px;
+}
+
+#contact .form-group label {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#contact .form-control {
+    border-radius: 0.25rem;
+    box-shadow: none;
+    font-size: 1rem;
+}
+
+#contact .btn {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 0.25rem;
+}
+
+
+/* Follow Me Section */
+#follow-me {
+    padding: 3rem 0;
+    background: #f8f9fa;
+}
+
+#follow-me .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+#follow-me .social-icon {
+    color: #495057;
+    font-size: 1.5rem;
+    transition: color 0.3s ease, transform 0.3s ease, background-color 0.3s ease; /* Added background-color to transition */
+    padding: 10px; /* Added padding to make hover effect more prominent */
+    border-radius: 50%; /* Added border-radius for rounded effect */
+}
+
+#follow-me .social-icon:hover {
+    color: #fff; /* Change icon color to white on hover */
+    transform: translateY(-3px);
+    background-color: #007bff; /* Add background color on hover */
+}
+
+/* Specific Social Media Colors on Hover */
+#follow-me .social-icon.facebook:hover {
+    background-color: #3b5998; /* Facebook blue */
+}
+
+#follow-me .social-icon.twitter:hover {
+    background-color: #1da1f2; /* Twitter blue */
+}
+
+#follow-me .social-icon.linkedin:hover {
+    background-color: #0077b5; /* LinkedIn blue */
+}
+
+#follow-me .social-icon.instagram:hover {
+    background-color: #e4405f; /* Instagram pink */
+}
+
+#follow-me .social-icon.github:hover {
+    background-color: #333; /* GitHub black */
+}
